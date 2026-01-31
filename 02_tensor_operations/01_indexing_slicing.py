@@ -32,7 +32,7 @@ print(f"\nFirst three [0:3]: {vector[0:3]}")
 print(f"From index 2 to end [2:]: {vector[2:]}")
 print(f"Up to index 3 [:3]: {vector[:3]}")
 print(f"Every other element [::2]: {vector[::2]}")
-print(f"Reversed [::-1]: {vector[::-1]}")
+print(f"Reversed: {torch.flip(vector, dims=[0])}")
 
 # ============================================
 # 2. Indexing 2D tensors (matrices)
