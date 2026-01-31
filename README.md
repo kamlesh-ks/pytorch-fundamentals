@@ -44,3 +44,19 @@ Folder: `01_tensors/`
 - They are the basic building blocks of all PyTorch programs
 
 ---
+
+### Module 2: Tensor Operations
+Folder: `02_tensor_operations/`
+
+
+**What you'll learn:**
+- Mathematical operations
+- Indexing and slicing
+- Reshaping tensors
+- Broadcasting
+
+**Why it matters:**
+- All neural network computations use these operations
+- Understanding them makes debugging much easier
+
+---
